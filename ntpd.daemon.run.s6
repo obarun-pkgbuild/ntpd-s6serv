@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if ! [ -d /run/openntpd ]; then
+	mkdir -p -m 0755 /run/openntpd
+fi
+exec 2>&1
+exec /usr/bin/ntpd -s -d
+
