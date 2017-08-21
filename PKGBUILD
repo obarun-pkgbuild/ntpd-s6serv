@@ -14,6 +14,7 @@ source=('ntpd.daemon.run.s6'
 		'LICENSE')
 md5sums=('ab7b5c5a36365129092f81b8a1f17b93'
          '7edbf64064fb9cb05bd226992c6bb4b1'
+         '6a75bbac22d68bae5dd23a39d98dceb4'
          '191a37ae657aa17e37e75d0242865dba')
 
 package() {
